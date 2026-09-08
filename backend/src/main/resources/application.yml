@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: recruiterlens-ai
+
+gemini:
+  api-key: ${GEMINI_API_KEY:}
+  model: ${GEMINI_MODEL:gemini-3.6-flash}
+  base-url: https://generativelanguage.googleapis.com/v1beta
+  timeout-seconds: 60
+  # Set to true to test the UI and pipeline without an external Gemini API key
+  mock-mode: ${GEMINI_MOCK_MODE:false}
+
+logging:
+  level:
+    com.recruiterlens.ai: INFO
+    org.springframework.web: INFO
