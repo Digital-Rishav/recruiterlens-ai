@@ -75,7 +75,7 @@ export default function App() {
         <div className="text-center max-w-3xl mx-auto space-y-3 pt-2">
           <div className="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-300 text-xs font-semibold shadow-sm">
             <Bot className="h-3.5 w-3.5 text-indigo-400" />
-            <span>Powered by Gemini 2.5 Flash & Spring Boot 3</span>
+            <span>Powered by Gemini 3.6 Flash & Spring Boot 3</span>
           </div>
 
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-white">
@@ -150,11 +150,11 @@ export default function App() {
           <div className="flex items-center space-x-2">
             <span className="font-semibold text-slate-400">RecruiterLens AI</span>
             <span>—</span>
-            <span>Clean Architecture MVP</span>
+            <span>Candidate-Job Compatibility Intelligence MVP</span>
           </div>
 
           <div className="flex items-center space-x-4 text-[11px] text-slate-400">
-            <span>Java 21</span>
+            <span>Java 25</span>
             <span>•</span>
             <span>Spring Boot 3.4</span>
             <span>•</span>
