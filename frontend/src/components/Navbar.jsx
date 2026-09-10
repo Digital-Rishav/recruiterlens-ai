@@ -44,7 +44,7 @@ export default function Navbar({ health, checkingHealth, onRefreshHealth }) {
                 }`}
               />
               <span className="font-medium">
-                {isHealthy ? (isAiReady ? 'Backend & Gemini Ready' : 'Backend Ready (Key Unset)') : 'Backend Offline'}
+                {isHealthy ? (isAiReady ? 'Live • Gemini AI Connected' : 'Backend Ready (Key Unset)') : 'Backend Offline'}
               </span>
             </div>
           </button>
