@@ -9,7 +9,7 @@ const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://recruiterlens-ai-b
  */
 export async function checkHealth() {
   try {
-    const response = await fetch(`${API_BASE_URL}/health`, {
+    const response = await fetch(`${API_BASE_URL}/api/health`, {
       method: 'GET',
       headers: {
         'Accept': 'application/json',
@@ -41,7 +41,7 @@ export async function checkHealth() {
  * @returns {Promise<Object>} AnalysisResponse
  */
 export async function analyzeCandidate({ resume, jobDescription }) {
-  const response = await fetch(`${API_BASE_URL}/analyze`, {
+  const response = await fetch(`${API_BASE_URL}/api/analyze`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
