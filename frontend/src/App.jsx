@@ -154,7 +154,7 @@ export default function App() {
           </div>
 
           <div className="flex items-center space-x-4 text-[11px] text-slate-400">
-            <span>Java 25</span>
+            <span>Java 21</span>
             <span>•</span>
             <span>Spring Boot 3.4</span>
             <span>•</span>

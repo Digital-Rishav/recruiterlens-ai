@@ -2,7 +2,7 @@
  * API service for communicating with the RecruiterLens Spring Boot backend.
  */
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8080/api';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://recruiterlens-ai-backend.onrender.com/';
 
 /**
  * Checks backend health status and Gemini configuration.
