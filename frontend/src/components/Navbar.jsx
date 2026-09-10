@@ -51,7 +51,7 @@ export default function Navbar({ health, checkingHealth, onRefreshHealth }) {
 
           <div className="hidden md:flex items-center space-x-1.5 text-xs text-slate-400 border-l border-slate-800 pl-3">
             <Cpu className="h-3.5 w-3.5 text-indigo-400" />
-            <span>Java 25 + Spring Boot</span>
+            <span>Java 21 + Spring Boot</span>
           </div>
         </div>
       </div>
